@@ -22,6 +22,8 @@ for csv_file in csv_files:
     b = 0
     c = 0
 
+
+
     # 遍历每一行
     for index, row in df.iterrows():
         info_list = row.values[0].split('$')
